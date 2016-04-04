@@ -4,7 +4,14 @@ $(function() {
     return Math.floor(Math.random() * (max - min)) + min;
   }
 
-  var num = getRandomInt(0, drupes_and_stuff.length);
+  var drupes_and_stuff;
+
+  $.getJSON("/things", function(res) {
+      drupes_and_stuff = res;
+      console.log(drupes_and_stuff);
+    });
+
+  var num;
   var drupe;
   var aggregate;
   var lastDrupe;

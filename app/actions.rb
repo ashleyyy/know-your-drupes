@@ -1,5 +1,9 @@
 # Homepage (Root path)
-get '/things' do
-  @things = Thing.all
+get '/' do
   erb :index
 end
+
+get '/things' do
+  Thing.all.to_json
+end
+
