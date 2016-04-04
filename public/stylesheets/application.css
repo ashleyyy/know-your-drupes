@@ -1,0 +1,16 @@
+body {
+  width: 80%;
+  margin: auto;
+  padding: 3%;
+  text-align: center;
+}
+
+h3 {
+  padding: 2%;
+}
+
+.sized {
+  max-height: 150px;
+  /*   max-width: 122px; */
+  /*   border: 2px solid black; */
+}
