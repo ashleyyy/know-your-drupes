@@ -1,5 +1,5 @@
 # Homepage (Root path)
-get '/' do
+get '/things' do
   @things = Thing.all
   erb :index
 end

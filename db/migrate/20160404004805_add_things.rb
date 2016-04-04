@@ -5,5 +5,6 @@ class AddThings < ActiveRecord::Migration
       t.string :imageUrl
       t.boolean :drupe
       t.boolean :aggregate
+    end
   end
 end
