@@ -3,7 +3,7 @@ Thing.create name: "Coconut",
 imageUrl: "http://static1.squarespace.com/static/51919895e4b0932556eea067/t/5194d3fde4b0566afb240022/1375324460158",
 drupe: true
 
-Thing.create Thing.create name: "Puppy",
+Thing.create name: "Puppy",
 imageUrl: "http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-5.jpg",
 drupe: false
 

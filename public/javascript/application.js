@@ -5,7 +5,6 @@ $(function() {
     }
 
     var drupes_and_stuff = res;
-
     var num = getRandomInt(0, drupes_and_stuff.length);
     var drupe;
     var aggregate;
