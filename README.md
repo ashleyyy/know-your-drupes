@@ -1,7 +1,5 @@
-Sinatra
+Know Your Drupes!
 =============
-
-Brought to you by Lighthouse Labs
 
 ## Getting Started
 
